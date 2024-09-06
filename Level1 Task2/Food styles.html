@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vareties</title>
+    <style>
+        body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: grey;
+           overflow-x: hidden; 
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 3px; 
+            padding: 10px;
+        }
+        .grid-item {
+            display: flex;
+            padding-top: 7%;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+        }
+        .grid-item img {
+            max-width: 300px;
+            max-height: 300px;
+            margin-bottom: 20px; 
+        }
+        figure {
+            margin: 0;
+            padding: 0;
+        }
+        figcaption {
+            margin-top: 5px;
+            font-style: normal;
+            color: rgb(19, 18, 18);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <figure>
+                <a href="south.html" target="_blank">
+                    <img src="south indian.jpg" width="300px" height="250px" alt="Image">
+                </a>
+                <figcaption>SOUTH INDIAN</figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="east.html" target="_blank">
+                    <img src="east indian.jpg" height="200px" alt="Image">
+                </a>
+                <figcaption>EAST INDIAN</figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="west.html" target="_blank">
+                    <img src="west indian.jpg" alt="Image">
+                </a>
+                <figcaption>WEST INDIAN</figcaption>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="north.html" target="_blank">
+                    <img src="north indian.jpg" alt="Image">
+                </a>
+                <figcaption>NORTH INDIAN</figcaption>
+            </figure>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
